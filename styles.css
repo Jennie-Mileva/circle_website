@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #093a64;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header hr {
+    width: 50%;
+    border: 1px solid white;
+    margin: 1em auto;
+}
+
+header img {
+    border-radius: 8px;
+    margin: 1em 0;
+}
+
+.motto {
+    font-size: 1.3em;
+    font-style: italic;
+    margin-top: 0.5em;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Section Titles */
+h2 {
+    color: #093a64;
+    border-bottom: 2px solid #093a64;
+    padding-bottom: 0.2em;
+    margin-bottom: 1em;
+}
+
+/* Lists */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 0.5em 0;
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+
+/* Team Section */
+.team ul li {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+    margin-top: 2em;
+}
+
+footer p {
+    margin: 0;
+}
